@@ -87,7 +87,16 @@ for (int i = 0; i < 3; i++){
   //Measure 6
 
   //Measure 7 - Anh
-
+  //Bb4
+tone(output, Bb4);   
+      delay(eightnote);   
+    noTone(output);  
+      delay(100);
+  //C5
+  tone(output, C5);   
+      delay(eightnote);   
+    noTone(output);  
+      delay(100);
   //Measure 8 - Anh
 
   //Measure 9 - Anh
