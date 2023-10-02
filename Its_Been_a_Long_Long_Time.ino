@@ -39,21 +39,36 @@ int dothalf = 1500;
 int whole = 2000;
 int triplets = 167;
 
-void setup()
-{
-for (int i = 0; i < 3; i++){
-    // Measure 1, 2 seconds
-    // C4
-    tone(output, C4);    // tone(outputPin,frequency)
+
+\
+//This is the format for inputing notes
+ tone(output, C4);    // tone(outputPin,frequency)
       delay(dotquarter);  //  delay(milliseconds) 
     noTone(output);
       delay(100);
-    // C4
-    tone(output, C4);   
-      delay(dotquarter);   
+
+
+
+void setup()
+{
+for (int i = 0; i < 3; i++){
+    // Measure 1 - Elijah Roush
+    // D5
+    tone(output, D5);   
+      delay(triplets); 
+    noTone(output);
+      delay(20);
+    // C#
+    tone(output, C#);   
+      delay(triplets);   
     noTone(output);  
-      delay(100);  
-    // Measure 2, 2 seconds
+      delay(20);  
+    // C5
+    tone(output, C5);   
+      delay(triplets);   
+    noTone(output);  
+      delay(20);  
+    // Measure 2 - Elijah Roush
     // C4
     tone(output, C4);    
       delay(quarter);  
