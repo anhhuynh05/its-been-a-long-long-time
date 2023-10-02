@@ -82,6 +82,16 @@ for (int i = 0; i < 3; i++){
     // G4
     tone(output, G4);    
       delay(dothalf); 
+  // Measure 5
+
+  //Measure 6
+
+  //Measure 7
+
+  //Measure 8
+
+  //Measure 9
+  
   
     // END
     noTone(output); // stop playing
