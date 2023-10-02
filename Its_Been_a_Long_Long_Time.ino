@@ -86,11 +86,11 @@ for (int i = 0; i < 3; i++){
 
   //Measure 6
 
-  //Measure 7
+  //Measure 7 - Anh
 
-  //Measure 8
+  //Measure 8 - Anh
 
-  //Measure 9
+  //Measure 9 - Anh
   
   
     // END
