@@ -42,18 +42,23 @@ int triplets = 167;
 void setup()
 {
 for (int i = 0; i < 3; i++){
-    // Measure 1, 2 seconds
-    // C4
-    tone(output, C4);    // tone(outputPin,frequency)
-      delay(dotquarter);  //  delay(milliseconds) 
+    // Measure 1 - Elijah Roush
+    // D5
+    tone(output, D5);    // tone(outputPin,frequency)
+      delay(triplets);  //  delay(milliseconds) 
     noTone(output);
       delay(100);
-    // C4
-    tone(output, C4);   
-      delay(dotquarter);   
+    // C#
+    tone(output, C#);   
+      delay(triplets);   
     noTone(output);  
-      delay(100);  
-    // Measure 2, 2 seconds
+      delay(20);  
+      // C5
+    tone(output, C5);   
+      delay(triplets);   
+    noTone(output);  
+      delay(20); 
+    // Measure 2 - Elijah Roush
     // C4
     tone(output, C4);    
       delay(quarter);  
