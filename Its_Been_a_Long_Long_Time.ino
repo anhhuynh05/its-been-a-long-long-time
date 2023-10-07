@@ -59,15 +59,30 @@ for (int i = 0; i < 3; i++){
     noTone(output);  
       delay(20); 
     // Measure 2 - Elijah Roush
-    // C4
-    tone(output, C4);    
-      delay(quarter);  
-    // D4
-    tone(output, D4);    
-      delay(sixteenth);  
-    // E4
-    tone(output, E4);    
-      delay(dotquarter);   
+    // Bb4
+    tone(output, Bb4);    
+      delay(eightnotes);  
+    // D5
+    tone(output, D5);    
+      delay(eightnotes);  
+    // F5
+    tone(output, F5);    
+      delay(eightnotes);
+    // Bb4
+    tone(output, Bb4);   
+      delay(eightnotes); 
+    // A4
+    tone(output, A4);    
+      delay(eightnotes);  
+    // D5
+    tone(output, D5);    
+      delay(eightnotes);  
+    // F5
+    tone(output, F5);    
+      delay(eightnotes);
+    // A4
+    tone(output, A4);   
+      delay(eightnotes); 
     noTone(output);
       delay(100);
     // Measure 3, 2 seconds
