@@ -47,7 +47,7 @@ for (int i = 0; i < 3; i++){
     tone(output, D5);    // tone(outputPin,frequency)
       delay(triplets);  //  delay(milliseconds) 
     noTone(output);
-      delay(100);
+      delay(20);
     // C#
     tone(output, C#);   
       delay(triplets);   
