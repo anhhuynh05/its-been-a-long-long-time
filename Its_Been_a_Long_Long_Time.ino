@@ -85,23 +85,40 @@ for (int i = 0; i < 3; i++){
       delay(eightnotes); 
     noTone(output);
       delay(100);
-    // Measure 3, 2 seconds
-    // E4
-    tone(output, E4);    
-      delay(quarter); 
-    // D4 
-    tone(output, D4);  
-      delay(sixteenth); 
-    // E4
-    tone(output, E4);    
-      delay(quarter); 
+    
+  // Measure 3, 2 seconds    Matthew Klein
+    // G4
+    tone(output, G4);    
+      delay(eightnotes); 
+    // A4
+    tone(output, A4);
+      delay(eightnotes);
+    // G4
+    tone(output, G4);
+      delay(sixteenth);
+    // A4
+    tone(output, A4);
+      delay(sixteenth);
+    // G4
+    tone(output, G4);
+      delay(eightnotes);
     // F4
-    tone(output, F4);    
-      delay(sixteenth); 
-    // Measure 4, 2 seconds
+    tone(output, F4);
+      delay(triplets);
+    // G4
+    tone(output, G4);
+      dealy(triplets);
+    // F4
+    tone(output, F4);
+      delay(triplets);
+  
+    // Measure 4, 2 seconds Matthew Klein
     // G4
     tone(output, G4);    
       delay(dothalf); 
+    // G#4
+    tone(output,G#4);
+      delay(dothalf);
   // Measure 5
 
   //Measure 6
