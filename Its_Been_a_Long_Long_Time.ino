@@ -119,9 +119,9 @@ for (int i = 0; i < 3; i++){
     // G#4
     tone(output,G#4);
       delay(dothalf);
-  // Measure 5
-
-  //Measure 6
+  // Measure 5 - Mason
+  // 
+  //Measure 6 - Mason
 
   //Measure 7 - Anh
   //Bb4
