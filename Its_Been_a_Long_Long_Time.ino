@@ -120,9 +120,34 @@ for (int i = 0; i < 3; i++){
     tone(output,G#4);
       delay(dothalf);
   // Measure 5 - Mason
-  // 
+  // A4
+  tone(output, A4);
+    delay(dothalf);
   //Measure 6 - Mason
-
+  // C5
+  tone(output, C5);
+    delay(eightnote);
+   // E5
+   tone(output, E5);
+     delay(eightnote);
+  // G5
+  tone(output, G5);
+    delay(eightnote);
+   // C5
+  tone(output, C5);
+    delay(eightnote);
+  // B4
+  tone(output, B4);
+    delay(eightnote);
+  // E5
+   tone(output, E5);
+     delay(eightnote);
+   // G5
+  tone(output, G5);
+    delay(eightnote);
+   // B4
+  tone(output, B4);
+    delay(eightnote);
   //Measure 7 - Anh
   //Bb4
 tone(output, Bb4);   
