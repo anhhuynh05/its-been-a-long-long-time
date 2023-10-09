@@ -18,18 +18,18 @@ Notes chart:
 int D5 = 587;
 int halfnote = 1000;
 int output = 13;
-int C# = 554;
+int Cs5 = 554;
 int C5 = 523;
 int Bb4 = 466;
 int F5 = 699;
-int A4 = 440
-int G4 = 392
-int F4 = 349
-int G#4 = 415
-int Eb5 = 622
-int G5 = 784
-int B4 = 494
-int F#4 = 370 
+int A = 440;
+int G4 = 392;
+int F4 = 349;
+int Gs4 = 415;
+int Eb5 = 622;
+int G5 = 784;
+int B4 = 494;
+int Fs4 = 370; 
 
 int eightnotes = 250;
 int dotquarter = 750;
@@ -47,41 +47,55 @@ for (int i = 0; i < 3; i++){
     tone(output, D5);    // tone(outputPin,frequency)
       delay(triplets);  //  delay(milliseconds) 
     noTone(output);
-      delay(20);
+      delay(100);
     // C#
-    tone(output, C#);   
+    tone(output, Cs5);   
       delay(triplets);   
     noTone(output);  
-      delay(20);  
+      delay(100);  
       // C5
     tone(output, C5);   
       delay(triplets);   
     noTone(output);  
-      delay(20); 
+      delay(100); 
     // Measure 2 - Elijah Roush
     // Bb4
     tone(output, Bb4);    
-      delay(eightnotes);  
+      delay(eightnotes);
+      noTone(output);  
+      delay(100);  
     // D5
     tone(output, D5);    
-      delay(eightnotes);  
+      delay(eightnotes);
+      noTone(output);  
+      delay(100);  
     // F5
     tone(output, F5);    
       delay(eightnotes);
+      noTone(output);  
+      delay(100);
     // Bb4
     tone(output, Bb4);   
-      delay(eightnotes); 
+      delay(eightnotes);
+      noTone(output);  
+      delay(100); 
     // A4
     tone(output, A4);    
-      delay(eightnotes);  
+      delay(eightnotes);
+      noTone(output);  
+      delay(100);  
     // D5
     tone(output, D5);    
-      delay(eightnotes);  
+      delay(eightnotes);
+      noTone(output);  
+      delay(100);  
     // F5
     tone(output, F5);    
       delay(eightnotes);
+      noTone(output);  
+      delay(100);
     // A4
-    tone(output, A4);   
+    tone(output, A);   
       delay(eightnotes); 
     noTone(output);
       delay(100);
@@ -89,74 +103,112 @@ for (int i = 0; i < 3; i++){
   // Measure 3, 2 seconds    Matthew Klein
     // G4
     tone(output, G4);    
-      delay(eightnotes); 
+      delay(eightnotes);
+      noTone(output);  
+      delay(100); 
     // A4
     tone(output, A4);
       delay(eightnotes);
+      noTone(output);  
+      delay(100);
     // G4
     tone(output, G4);
       delay(sixteenth);
+      noTone(output);  
+      delay(100);
     // A4
-    tone(output, A4);
+    tone(output, A);
       delay(sixteenth);
+      noTone(output);  
+      delay(100);
     // G4
     tone(output, G4);
       delay(eightnotes);
+      noTone(output);  
+      delay(100);
     // F4
     tone(output, F4);
       delay(triplets);
+      noTone(output);  
+      delay(100);
     // G4
     tone(output, G4);
-      dealy(triplets);
+      delay(triplets);
+      noTone(output);  
+      delay(100);
     // F4
     tone(output, F4);
       delay(triplets);
+      noTone(output);  
+      delay(100);
   
     // Measure 4, 2 seconds Matthew Klein
     // G4
     tone(output, G4);    
-      delay(dothalf); 
-    // G#4
-    tone(output,G#4);
       delay(dothalf);
+      noTone(output);  
+      delay(100); 
+    // G#4
+    tone(output,Gs4);
+      delay(dothalf);
+      noTone(output);  
+      delay(100);
   // Measure 5 - Mason
   // A4
-  tone(output, A4);
+  tone(output, A);
     delay(dothalf);
+    noTone(output);  
+      delay(100);
   //Measure 6 - Mason
   // C5
   tone(output, C5);
-    delay(eightnote);
+    delay(eightnotes);
+    noTone(output);  
+      delay(100);
    // E5
-   tone(output, E5);
-     delay(eightnote);
+   tone(output, Eb5);
+     delay(eightnotes);
+     noTone(output);  
+      delay(100);
   // G5
   tone(output, G5);
-    delay(eightnote);
+    delay(eightnotes);
+    noTone(output);  
+      delay(100);
    // C5
   tone(output, C5);
-    delay(eightnote);
+    delay(eightnotes);
+    noTone(output);  
+      delay(100);
   // B4
   tone(output, B4);
-    delay(eightnote);
+    delay(eightnotes);
+    noTone(output);  
+      delay(100);
   // E5
-   tone(output, E5);
-     delay(eightnote);
+   tone(output, Eb5);
+     delay(eightnotes);
+     noTone(output);  
+      delay(100);
    // G5
   tone(output, G5);
-    delay(eightnote);
+    delay(eightnotes);
+    noTone(output);  
+      delay(100);
    // B4
   tone(output, B4);
-    delay(eightnote);
+    delay(eightnotes);
+    noTone(output);  
+      delay(100);
   //Measure 7 - Anh
   //Bb4
 tone(output, Bb4);   
-      delay(eightnote);   
+      delay(eightnotes);   
     noTone(output);  
       delay(100);
   //C5
   tone(output, C5);   
-      delay(eightnote);   
+      delay(eightnotes);   
     noTone(output);  
       delay(100);
   //Bb4
@@ -170,13 +222,13 @@ tone(output, Bb4);
     noTone(output);  
       delay(100);
   //A4
-  tone(output, A4);   
+  tone(output, A);   
       delay(quarter);   
     noTone(output);  
       delay(100);
   //F4
   tone(output, F4);   
-      delay(eightnote);   
+      delay(eightnotes);   
     noTone(output);  
       delay(100);
   //G4
@@ -185,7 +237,7 @@ tone(output, Bb4);
     noTone(output);  
       delay(100);
   //F#4
-   tone(output, F#);   
+   tone(output, Fs4);   
       delay(triplets);   
     noTone(output);  
       delay(100);
@@ -201,7 +253,7 @@ tone(output, Bb4);
     noTone(output);  
       delay(100);
   //C#5
-   tone(output, C#);   
+   tone(output, Cs5);   
       delay(halfnote);   
     noTone(output);  
       delay(100);
