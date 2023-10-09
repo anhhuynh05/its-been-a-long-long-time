@@ -16,7 +16,6 @@ Notes chart:
 8 4186  4435  4699  4978  5274  5588  5920  6272  6645  7040  7459  7902
 */
 int D5 = 587;
-int halfnote = 1000;
 int output = 13;
 int Cs5 = 554;
 int C5 = 523;
@@ -31,13 +30,14 @@ int G5 = 784;
 int B4 = 494;
 int Fs4 = 370; 
 
-int eightnotes = 250;
-int dotquarter = 750;
-int quarter = 500;
-int sixteenth = 125;
-int dothalf = 1500;
-int whole = 2000;
-int triplets = 167;
+int halfnote = 1250;
+int eightnotes = 313;
+int dotquarter = 938;
+int quarter = 625;
+int sixteenth = 156;
+int dothalf = 1563;
+int whole = 2500;
+int triplets = 208;
 
 void setup()
 {
@@ -249,18 +249,18 @@ tone(output, Bb4);
   //Measure 8 - Anh
   //C5
    tone(output, C5);   
-      delay(halfnote);   
+      delay(dothalf);   
     noTone(output);  
       delay(50);
   //C#5
    tone(output, Cs5);   
-      delay(halfnote);   
+      delay(dothalf);   
     noTone(output);  
       delay(50);
   //Measure 9 - Anh
   //D5
    tone(output, D5);   
-      delay(halfnote);   
+      delay(dothalf);   
     noTone(output);  
       delay(50);
   
