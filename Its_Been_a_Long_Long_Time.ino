@@ -134,10 +134,58 @@ tone(output, Bb4);
       delay(eightnote);   
     noTone(output);  
       delay(100);
+  //Bb4
+  tone(output, Bb4);   
+      delay(sixteenth);   
+    noTone(output);  
+      delay(100);
+  //C5
+  tone(output, C5);   
+      delay(sixteenth);   
+    noTone(output);  
+      delay(100);
+  //A4
+  tone(output, A4);   
+      delay(quarter);   
+    noTone(output);  
+      delay(100);
+  //F4
+  tone(output, F4);   
+      delay(eightnote);   
+    noTone(output);  
+      delay(100);
+  //G4
+  tone(output, G4);   
+      delay(triplets);   
+    noTone(output);  
+      delay(100);
+  //F#4
+   tone(output, F#);   
+      delay(triplets);   
+    noTone(output);  
+      delay(100);
+  //F4
+   tone(output, F4);   
+      delay(triplets);   
+    noTone(output);  
+      delay(100);
   //Measure 8 - Anh
-
+  //C5
+   tone(output, C5);   
+      delay(halfnote);   
+    noTone(output);  
+      delay(100);
+  //C#5
+   tone(output, C#);   
+      delay(halfnote);   
+    noTone(output);  
+      delay(100);
   //Measure 9 - Anh
-  
+  //D5
+   tone(output, D5);   
+      delay(halfnote);   
+    noTone(output);  
+      delay(100);
   
     // END
     noTone(output); // stop playing
